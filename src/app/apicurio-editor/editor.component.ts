@@ -1,5 +1,6 @@
 import { Component, ViewEncapsulation, OnInit } from '@angular/core';
 import { ApiDefinition } from 'apicurio-design-studio';
+// import 'patternfly/dist/css/patternfly.min';
 
 @Component({
   selector: 'apicurio-root',
@@ -17,9 +18,9 @@ export class ApicurioEditorComponent implements OnInit {
 
   apiDef: ApiDefinition;
 
-  // onUserChange($event: Event) {
-  //   console.log('did a change', $event);
-  // }
+  onUserChange($event: Event) {
+    console.log('did a change', $event);
+  }
 
   constructor() {}
 

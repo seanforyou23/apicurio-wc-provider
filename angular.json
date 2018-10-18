@@ -23,9 +23,15 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/patternfly/dist/css/patternfly.min.css",
+              "node_modules/patternfly/dist/css/patternfly-additions.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js",
+              "node_modules/patternfly/dist/js/patternfly.js"
+            ]
           },
           "configurations": {
             "production": {
